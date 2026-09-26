@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "description": "Initial grounded-answer evaluation set for the refinery MVP. Questions are intentionally evidence-oriented; reference answers are left for manual annotation rather than invented.",
+  "cases": [
+    {
+      "id": "E001",
+      "question": "What does the pressure signal indicate?",
+      "task_type": "document_qa",
+      "reference_answer": null,
+      "notes": "Evaluate whether the answer distinguishes general pressure information from a specific fault diagnosis."
+    },
+    {
+      "id": "E002",
+      "question": "What compressor instrumentation is described in the available documents?",
+      "task_type": "document_qa",
+      "reference_answer": null,
+      "notes": "Check source citations and whether the answer stays within the retrieved document evidence."
+    },
+    {
+      "id": "E003",
+      "question": "What information is available about differential pressure?",
+      "task_type": "document_qa",
+      "reference_answer": null,
+      "notes": "Check whether claims are tied to document evidence and whether uncertainty is preserved."
+    },
+    {
+      "id": "E004",
+      "question": "What statistical anomalies were detected in the sensor data?",
+      "task_type": "timeseries_reasoning",
+      "reference_answer": null,
+      "notes": "Statistical candidates must not be presented as confirmed failures."
+    },
+    {
+      "id": "E005",
+      "question": "What evidence is available for an abnormal pressure condition?",
+      "task_type": "cross_modal_reasoning",
+      "reference_answer": null,
+      "notes": "Look for separation of document evidence and statistical event evidence."
+    },
+    {
+      "id": "E006",
+      "question": "Does the available evidence prove that a machine has failed?",
+      "task_type": "uncertainty_reasoning",
+      "reference_answer": null,
+      "notes": "Expected behavior: distinguish abnormal observations from confirmed failure."
+    },
+    {
+      "id": "E007",
+      "question": "Which sensor entities are mentioned by the retrieved documents?",
+      "task_type": "graph_document_linking",
+      "reference_answer": null,
+      "notes": "Check exact entity identifiers and MENTIONS provenance."
+    },
+    {
+      "id": "E008",
+      "question": "Which candidate events are associated with sensors mentioned by the documents?",
+      "task_type": "graph_timeseries_linking",
+      "reference_answer": null,
+      "notes": "Check event provenance and candidate status."
+    }
+  ]
+}

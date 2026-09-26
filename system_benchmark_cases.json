@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "description": "Initial end-to-end benchmark for the refinery Industrial AI Knowledge System.",
+  "cases": [
+    {
+      "id": "B001",
+      "category": "document_retrieval",
+      "question": "What compressor instrumentation is described in the available documents?"
+    },
+    {
+      "id": "B002",
+      "category": "document_retrieval",
+      "question": "What information is available about differential pressure?"
+    },
+    {
+      "id": "B003",
+      "category": "timeseries",
+      "question": "What statistical anomalies were detected in the sensor data?"
+    },
+    {
+      "id": "B004",
+      "category": "cross_modal",
+      "question": "What evidence is available for an abnormal pressure condition?"
+    },
+    {
+      "id": "B005",
+      "category": "uncertainty",
+      "question": "Does the available evidence prove that equipment has failed?"
+    },
+    {
+      "id": "B006",
+      "category": "provenance",
+      "question": "What source evidence supports the information retrieved for compressor instrumentation?"
+    },
+    {
+      "id": "B007",
+      "category": "temporal",
+      "question": "What happened around a pressure anomaly?"
+    },
+    {
+      "id": "B008",
+      "category": "hard_negative",
+      "question": "If two sensor signals are correlated, does that prove that one caused the other?"
+    }
+  ]
+}
