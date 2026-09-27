@@ -1,0 +1,10 @@
+{
+  "index_type": "numpy_cosine",
+  "model": "BAAI/bge-small-en-v1.5",
+  "metric": "cosine_similarity",
+  "embedding_dimension": 384,
+  "chunk_count": 1540,
+  "source_chunks": "D:\\industrial-ai-knowledge-system\\data\\processed\\refinery\\documents\\document_chunks.jsonl",
+  "embeddings_file": "D:\\industrial-ai-knowledge-system\\data\\processed\\refinery\\documents\\embeddings.npy",
+  "metadata_file": "D:\\industrial-ai-knowledge-system\\data\\processed\\refinery\\documents\\chunk_metadata.jsonl"
+}

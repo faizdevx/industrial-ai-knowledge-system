@@ -1,0 +1,449 @@
+{
+  "status": "candidate",
+  "purpose": "Candidate ontology induced from dataset evidence and the project's universal industrial knowledge-model core.",
+  "domain_hypothesis": {
+    "domain": "industrial_process",
+    "subdomain": null,
+    "confidence": 0.8
+  },
+  "classes": [
+    {
+      "name": "Asset",
+      "description": "A physical industrial asset being monitored or operated.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Component",
+      "description": "A physical sub-part of an asset.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Subsystem",
+      "description": "A functional subsystem associated with an asset.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Sensor",
+      "description": "An instrument or signal used to observe a physical quantity.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Measurement",
+      "description": "A value produced by a sensor at a point in time.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Process",
+      "description": "An industrial process or operating activity.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Event",
+      "description": "A temporally bounded event derived from observations or records.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Condition",
+      "description": "An observed operating or equipment condition.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Maintenance",
+      "description": "A maintenance activity or maintenance record.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "Document",
+      "description": "A source document containing technical or operational knowledge.",
+      "source": "project_universal_core"
+    },
+    {
+      "name": "DifferentialPressureSensor",
+      "parent": "Sensor",
+      "tag_family": "PDI",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed PDI industrial instrument-tag family in the dataset.",
+      "validation_required": true
+    },
+    {
+      "name": "PressureSensor",
+      "parent": "Sensor",
+      "tag_family": "PI",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed PI industrial instrument-tag family in the dataset.",
+      "validation_required": true
+    },
+    {
+      "name": "SpeedSensor",
+      "parent": "Sensor",
+      "tag_family": "SI",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed SI industrial instrument-tag family in the dataset.",
+      "validation_required": true
+    },
+    {
+      "name": "TemperatureSensor",
+      "parent": "Sensor",
+      "tag_family": "TI",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed TI industrial instrument-tag family in the dataset.",
+      "validation_required": true
+    },
+    {
+      "name": "PositionOrDisplacementSensor",
+      "parent": "Sensor",
+      "tag_family": "XI",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed XI industrial instrument-tag family in the dataset.",
+      "validation_required": true
+    },
+    {
+      "name": "PositionSensor",
+      "parent": "Sensor",
+      "tag_family": "ZI",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed ZI industrial instrument-tag family in the dataset.",
+      "validation_required": true
+    },
+    {
+      "name": "IndustrialEquipment",
+      "parent": "Asset",
+      "status": "candidate",
+      "confidence": 0.75,
+      "evidence": "Dataset contains multiple industrial instrument-tag families and timestamped measurements."
+    },
+    {
+      "name": "IndustrialMeasurement",
+      "parent": "Measurement",
+      "status": "candidate",
+      "confidence": 0.75,
+      "evidence": "Dataset contains 25 numeric measurement columns attached to a timestamp."
+    }
+  ],
+  "relations": [
+    {
+      "name": "HAS_COMPONENT",
+      "domain": "Asset",
+      "range": "Component",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "HAS_SUBSYSTEM",
+      "domain": "Asset",
+      "range": "Subsystem",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "MONITORED_BY",
+      "domain": "Asset",
+      "range": "Sensor",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "MEASURES",
+      "domain": "Sensor",
+      "range": "Measurement",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "HAS_MEASUREMENT",
+      "domain": "Asset",
+      "range": "Measurement",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "OBSERVED_DURING",
+      "domain": "Measurement",
+      "range": "Event",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "HAS_CONDITION",
+      "domain": "Asset",
+      "range": "Condition",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "DOCUMENTED_BY",
+      "domain": "Asset",
+      "range": "Document",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "RELATED_TO",
+      "domain": "Event",
+      "range": "Event",
+      "status": "candidate",
+      "requires_evidence": true
+    },
+    {
+      "name": "HAS_MAINTENANCE",
+      "domain": "Asset",
+      "range": "Maintenance",
+      "status": "candidate",
+      "requires_evidence": true
+    }
+  ],
+  "entity_candidates": [
+    {
+      "candidate_id": "75ZI800BA.pv",
+      "class": "PositionSensor",
+      "source_tag": "75ZI800BA.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75ZI800BA.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75ZI800BB.pv",
+      "class": "PositionSensor",
+      "source_tag": "75ZI800BB.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75ZI800BB.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75ZI801BA.pv",
+      "class": "PositionSensor",
+      "source_tag": "75ZI801BA.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75ZI801BA.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75ZI801BB.pv",
+      "class": "PositionSensor",
+      "source_tag": "75ZI801BB.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75ZI801BB.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75PI808.pv",
+      "class": "PressureSensor",
+      "source_tag": "75PI808.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75PI808.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75PI823.pv",
+      "class": "PressureSensor",
+      "source_tag": "75PI823.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75PI823.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75PI870.pv",
+      "class": "PressureSensor",
+      "source_tag": "75PI870.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75PI870.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75PI845.pv",
+      "class": "PressureSensor",
+      "source_tag": "75PI845.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75PI845.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75PDI853.pv",
+      "class": "DifferentialPressureSensor",
+      "source_tag": "75PDI853.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75PDI853.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI821.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI821.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI821.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI822.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI822.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI822.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI827.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI827.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI827.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI828.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI828.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI828.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI824.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI824.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI824.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI829.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI829.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI829.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI830.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI830.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI830.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI831.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI831.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI831.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI832.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI832.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI832.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI836.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI836.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI836.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75TI834.pv",
+      "class": "TemperatureSensor",
+      "source_tag": "75TI834.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75TI834.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75XI821BX.pv",
+      "class": "PositionOrDisplacementSensor",
+      "source_tag": "75XI821BX.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75XI821BX.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75XI822BY.pv",
+      "class": "PositionOrDisplacementSensor",
+      "source_tag": "75XI822BY.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75XI822BY.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75XI823BX.pv",
+      "class": "PositionOrDisplacementSensor",
+      "source_tag": "75XI823BX.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75XI823BX.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75XI824BX.pv",
+      "class": "PositionOrDisplacementSensor",
+      "source_tag": "75XI824BX.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75XI824BX.pv' in Sheet1.",
+      "requires_validation": true
+    },
+    {
+      "candidate_id": "75SI865R.pv",
+      "class": "SpeedSensor",
+      "source_tag": "75SI865R.pv",
+      "status": "candidate",
+      "confidence": 0.7,
+      "evidence": "Observed source signal tag '75SI865R.pv' in Sheet1.",
+      "requires_validation": true
+    }
+  ],
+  "provenance_requirements": {
+    "required_for_entity": true,
+    "required_for_relation": true,
+    "required_for_measurement": true,
+    "required_fields": [
+      "source_id",
+      "source_type",
+      "location",
+      "extraction_method",
+      "confidence"
+    ]
+  },
+  "validation": {
+    "requires_human_validation": true,
+    "why": [
+      "Tag-family semantics are treated as hypotheses.",
+      "Equipment/component classes are candidates, not confirmed facts.",
+      "Relationships require source evidence before becoming trusted graph facts."
+    ]
+  },
+  "next_stage": "entity_and_relationship_validation"
+}

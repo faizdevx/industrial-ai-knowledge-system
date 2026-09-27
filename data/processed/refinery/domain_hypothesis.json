@@ -1,0 +1,44 @@
+{
+  "status": "hypothesis",
+  "candidate_domain": "industrial_process",
+  "candidate_subdomain": null,
+  "confidence": 0.8,
+  "evidence": [
+    {
+      "statement": "The dataset contains industrial instrument-tag family hints: PDI, PI, SI, TI, XI, ZI.",
+      "strength": "medium"
+    },
+    {
+      "statement": "The dataset contains 25 numeric measurement columns organized as timestamped observations.",
+      "strength": "medium"
+    },
+    {
+      "statement": "The source filename 'RCSD-1YD.xlsx' contains a rotating-equipment/compressor-related naming hint.",
+      "strength": "weak"
+    },
+    {
+      "statement": "The source contains a continuous time-indexed measurement record.",
+      "strength": "weak"
+    }
+  ],
+  "alternatives": [
+    {
+      "domain": "rotating_equipment",
+      "score": 0.35
+    }
+  ],
+  "dataset_summary": {
+    "file_name": "RCSD-1YD.xlsx",
+    "rows": 35036,
+    "columns": 26,
+    "tag_families": {
+      "PDI": 1,
+      "PI": 4,
+      "SI": 1,
+      "TI": 11,
+      "XI": 4,
+      "ZI": 4
+    }
+  },
+  "next_stage": "ontology_discovery"
+}

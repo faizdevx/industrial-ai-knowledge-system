@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "summary": {
+    "entities_total": 50,
+    "entities_source_validated": 50,
+    "relations_total": 50,
+    "errors": 0,
+    "warnings": 0
+  },
+  "checks": {
+    "entity_provenance": true,
+    "relation_provenance": true,
+    "source_file_lookup": true,
+    "sheet_lookup": true,
+    "column_lookup": true,
+    "row_range_validation": true,
+    "relation_endpoint_validation": true,
+    "confidence_range_validation": true
+  },
+  "issues": [],
+  "next_stage": "knowledge_graph_build"
+}

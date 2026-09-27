@@ -1,0 +1,3121 @@
+{
+  "status": "passed",
+  "source": {
+    "file_name": "RCSD-1YD.xlsx",
+    "sheet": "Sheet1"
+  },
+  "domain_hypothesis": {
+    "domain": "industrial_process",
+    "subdomain": null,
+    "confidence": 0.8
+  },
+  "entities": [
+    {
+      "id": "sensor_6c6b7b5bd944",
+      "entity_type": "Sensor",
+      "label": "75ZI800BA.pv",
+      "candidate_class": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI800BA.pv",
+        "tag_family": "ZI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 33098,
+        "statistics": {
+          "min": -0.0038966055571412,
+          "max": 0.259225262204806,
+          "mean": 0.06328545726393728,
+          "std": 0.029597649545760423,
+          "median": 0.0613760073979695,
+          "q01": 0.007647892395034396,
+          "q99": 0.20450160140792523
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_6c6b7b5bd944",
+      "entity_type": "MeasurementSeries",
+      "label": "75ZI800BA.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI800BA.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_cd37698d9a15",
+      "entity_type": "Sensor",
+      "label": "75ZI800BB.pv",
+      "candidate_class": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI800BB.pv",
+        "tag_family": "ZI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 33439,
+        "statistics": {
+          "min": -0.0789661390086015,
+          "max": 0.26735353966554,
+          "mean": 0.031087153604758166,
+          "std": 0.04177189538540931,
+          "median": 0.029844661771009348,
+          "q01": -0.04831896920998887,
+          "q99": 0.22125217658778046
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_cd37698d9a15",
+      "entity_type": "MeasurementSeries",
+      "label": "75ZI800BB.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI800BB.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_eec4649487da",
+      "entity_type": "Sensor",
+      "label": "75ZI801BA.pv",
+      "candidate_class": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI801BA.pv",
+        "tag_family": "ZI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 29094,
+        "statistics": {
+          "min": -0.1086351846655209,
+          "max": -0.0349133184800545,
+          "mean": -0.09460190172132564,
+          "std": 0.006004174761636476,
+          "median": -0.09521902042130626,
+          "q01": -0.10423129472881548,
+          "q99": -0.07627938943604622
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_eec4649487da",
+      "entity_type": "MeasurementSeries",
+      "label": "75ZI801BA.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI801BA.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_89961517e24d",
+      "entity_type": "Sensor",
+      "label": "75ZI801BB.pv",
+      "candidate_class": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI801BB.pv",
+        "tag_family": "ZI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 29463,
+        "statistics": {
+          "min": -0.0920387248198191,
+          "max": -0.0202687713628013,
+          "mean": -0.07865324229397262,
+          "std": 0.005006764242165277,
+          "median": -0.07916253569225465,
+          "q01": -0.08651422616094347,
+          "q99": -0.06418591675659016
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_89961517e24d",
+      "entity_type": "MeasurementSeries",
+      "label": "75ZI801BB.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75ZI801BB.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_3c38a9940af9",
+      "entity_type": "Sensor",
+      "label": "75PI808.pv",
+      "candidate_class": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI808.pv",
+        "tag_family": "PI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 30719,
+        "statistics": {
+          "min": 0.0,
+          "max": 10.35942471822103,
+          "mean": 9.878929321431645,
+          "std": 0.6644324806428777,
+          "median": 9.922921784718831,
+          "q01": 9.8038911819458,
+          "q99": 10.036135811805728
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI808.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_3c38a9940af9",
+      "entity_type": "MeasurementSeries",
+      "label": "75PI808.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI808.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI808.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_93c3df2c9ba8",
+      "entity_type": "Sensor",
+      "label": "75PI823.pv",
+      "candidate_class": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI823.pv",
+        "tag_family": "PI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 24955,
+        "statistics": {
+          "min": 0.0,
+          "max": 2.699161767959595,
+          "mean": 2.489182151375139,
+          "std": 0.03859950993980202,
+          "median": 2.48783278465271,
+          "q01": 2.412819385528564,
+          "q99": 2.614372348785401
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI823.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_93c3df2c9ba8",
+      "entity_type": "MeasurementSeries",
+      "label": "75PI823.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI823.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI823.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_605e7e0b0d6e",
+      "entity_type": "Sensor",
+      "label": "75PI870.pv",
+      "candidate_class": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI870.pv",
+        "tag_family": "PI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 20757,
+        "statistics": {
+          "min": 0.0,
+          "max": 8.681539535522461,
+          "mean": 8.003585823944181,
+          "std": 1.0222732499548566,
+          "median": 8.112933158874512,
+          "q01": 0.13032939806580543,
+          "q99": 8.576878547668457
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI870.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_605e7e0b0d6e",
+      "entity_type": "MeasurementSeries",
+      "label": "75PI870.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI870.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI870.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_46d34f72b609",
+      "entity_type": "Sensor",
+      "label": "75PI845.pv",
+      "candidate_class": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI845.pv",
+        "tag_family": "PI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 25630,
+        "statistics": {
+          "min": 0.002289202529937,
+          "max": 4.953054428100586,
+          "mean": 4.799433316930292,
+          "std": 0.06978582088462525,
+          "median": 4.807202100753784,
+          "q01": 4.646192145347595,
+          "q99": 4.926363945007324
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI845.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_46d34f72b609",
+      "entity_type": "MeasurementSeries",
+      "label": "75PI845.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PI845.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI845.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_bc73f4d6c640",
+      "entity_type": "Sensor",
+      "label": "75PDI853.pv",
+      "candidate_class": "DifferentialPressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PDI853.pv",
+        "tag_family": "PDI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 27205,
+        "statistics": {
+          "min": 0.0,
+          "max": 6.0,
+          "mean": 1.7027000399271965,
+          "std": 0.26107140273613477,
+          "median": 1.70087742805481,
+          "q01": 0.5923329144716263,
+          "q99": 2.2685898184776305
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PDI853.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_bc73f4d6c640",
+      "entity_type": "MeasurementSeries",
+      "label": "75PDI853.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75PDI853.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PDI853.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_195bf3996a83",
+      "entity_type": "Sensor",
+      "label": "75TI821.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI821.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 5267,
+        "statistics": {
+          "min": 28.4903335571289,
+          "max": 63.49130630493164,
+          "mean": 55.59441693137533,
+          "std": 3.0664400047692015,
+          "median": 56.08708190917969,
+          "q01": 33.45280456542969,
+          "q99": 57.9265251159668
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI821.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_195bf3996a83",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI821.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI821.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI821.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_c59acf353570",
+      "entity_type": "Sensor",
+      "label": "75TI822.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI822.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 4582,
+        "statistics": {
+          "min": 31.92867851257324,
+          "max": 72.9189682006836,
+          "mean": 62.73526462358296,
+          "std": 3.4818099702441003,
+          "median": 63.05734252929688,
+          "q01": 36.2139591217041,
+          "q99": 65.42764511108399
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI822.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_c59acf353570",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI822.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI822.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI822.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_c5c1030b0f7d",
+      "entity_type": "Sensor",
+      "label": "75TI827.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI827.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 3995,
+        "statistics": {
+          "min": 31.58014678955078,
+          "max": 64.46929168701172,
+          "mean": 56.629257529330914,
+          "std": 2.727611700831575,
+          "median": 56.94075012207031,
+          "q01": 35.831383895874026,
+          "q99": 58.18104763031006
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI827.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_c5c1030b0f7d",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI827.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI827.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI827.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_01b841f33d42",
+      "entity_type": "Sensor",
+      "label": "75TI828.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI828.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 5025,
+        "statistics": {
+          "min": 32.18220138549805,
+          "max": 73.84817504882812,
+          "mean": 63.27653933295459,
+          "std": 3.551023264339518,
+          "median": 63.56780624389648,
+          "q01": 36.32336349487305,
+          "q99": 66.62244567871095
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI828.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_01b841f33d42",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI828.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI828.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI828.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_ae6bcbf707de",
+      "entity_type": "Sensor",
+      "label": "75TI824.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI824.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 5036,
+        "statistics": {
+          "min": 35.99408340454102,
+          "max": 71.06275939941406,
+          "mean": 64.18681260420452,
+          "std": 3.27421094279872,
+          "median": 64.62515258789062,
+          "q01": 39.69450454711914,
+          "q99": 66.45962486267089
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI824.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_ae6bcbf707de",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI824.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI824.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI824.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_c9284d166748",
+      "entity_type": "Sensor",
+      "label": "75TI829.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI829.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 3722,
+        "statistics": {
+          "min": 31.62697792053223,
+          "max": 74.85575866699219,
+          "mean": 64.42576047429375,
+          "std": 3.719659853303459,
+          "median": 64.86311340332031,
+          "q01": 35.829244995117186,
+          "q99": 66.42375030517579
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI829.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_c9284d166748",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI829.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI829.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI829.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_186a6a288566",
+      "entity_type": "Sensor",
+      "label": "75TI830.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI830.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 3780,
+        "statistics": {
+          "min": 31.75234794616699,
+          "max": 70.467529296875,
+          "mean": 63.04204867465649,
+          "std": 3.524641619956816,
+          "median": 63.47877883911133,
+          "q01": 35.86766185760498,
+          "q99": 65.0189437866211
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI830.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_186a6a288566",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI830.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI830.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI830.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_fb626a261fd3",
+      "entity_type": "Sensor",
+      "label": "75TI831.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI831.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 2873,
+        "statistics": {
+          "min": 31.54709053039551,
+          "max": 80.43814849853516,
+          "mean": 74.13095515366898,
+          "std": 4.890162548212501,
+          "median": 74.6994400024414,
+          "q01": 35.68374767303467,
+          "q99": 75.82550010681153
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI831.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_fb626a261fd3",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI831.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI831.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI831.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_e0350c79fe90",
+      "entity_type": "Sensor",
+      "label": "75TI832.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI832.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 5746,
+        "statistics": {
+          "min": 31.79642486572266,
+          "max": 104.9247894287109,
+          "mean": 93.66205473498185,
+          "std": 7.4350211700333535,
+          "median": 94.57478332519533,
+          "q01": 35.9634407043457,
+          "q99": 97.28885650634766
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI832.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_e0350c79fe90",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI832.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI832.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI832.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_40fad8c00152",
+      "entity_type": "Sensor",
+      "label": "75TI836.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI836.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 3617,
+        "statistics": {
+          "min": 31.9782943725586,
+          "max": 80.0089340209961,
+          "mean": 71.45175434310273,
+          "std": 4.522484139329925,
+          "median": 71.99144744873047,
+          "q01": 36.22444152832031,
+          "q99": 73.5886459350586
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI836.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_40fad8c00152",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI836.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI836.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI836.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_bdc866d7334d",
+      "entity_type": "Sensor",
+      "label": "75TI834.pv",
+      "candidate_class": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI834.pv",
+        "tag_family": "TI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 3641,
+        "statistics": {
+          "min": 31.75510406494141,
+          "max": 81.8407974243164,
+          "mean": 75.6272837334755,
+          "std": 5.087782712971191,
+          "median": 76.29515075683594,
+          "q01": 35.78303909301758,
+          "q99": 77.49491882324219
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI834.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_bdc866d7334d",
+      "entity_type": "MeasurementSeries",
+      "label": "75TI834.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75TI834.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI834.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_624112a9fd28",
+      "entity_type": "Sensor",
+      "label": "75XI821BX.pv",
+      "candidate_class": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI821BX.pv",
+        "tag_family": "XI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 5909,
+        "statistics": {
+          "min": 0.8012208938598633,
+          "max": 20.40388107299805,
+          "mean": 12.292305523353782,
+          "std": 2.6444974933828758,
+          "median": 12.69962406158447,
+          "q01": 0.8584508895874023,
+          "q99": 16.42502784729004
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI821BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_624112a9fd28",
+      "entity_type": "MeasurementSeries",
+      "label": "75XI821BX.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI821BX.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI821BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_6b31b40c92db",
+      "entity_type": "Sensor",
+      "label": "75XI822BY.pv",
+      "candidate_class": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI822BY.pv",
+        "tag_family": "XI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 3506,
+        "statistics": {
+          "min": 0.7957704067230225,
+          "max": 84.63235473632812,
+          "mean": 7.251044648455654,
+          "std": 2.1613504712768346,
+          "median": 7.096527576446533,
+          "q01": 1.0453933358192447,
+          "q99": 9.077777862548828
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI822BY.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_6b31b40c92db",
+      "entity_type": "MeasurementSeries",
+      "label": "75XI822BY.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI822BY.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI822BY.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_1e420f4a11ba",
+      "entity_type": "Sensor",
+      "label": "75XI823BX.pv",
+      "candidate_class": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI823BX.pv",
+        "tag_family": "XI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 1753,
+        "statistics": {
+          "min": 0.7957704067230225,
+          "max": 10.68485260009766,
+          "mean": 7.356781390324305,
+          "std": 1.2016557838622912,
+          "median": 7.033847332000732,
+          "q01": 0.8530004024505615,
+          "q99": 9.271269798278809
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI823BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_1e420f4a11ba",
+      "entity_type": "MeasurementSeries",
+      "label": "75XI823BX.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI823BX.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI823BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_e567ef8cc1f9",
+      "entity_type": "Sensor",
+      "label": "75XI824BX.pv",
+      "candidate_class": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI824BX.pv",
+        "tag_family": "XI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 1862,
+        "statistics": {
+          "min": 0.8012208938598633,
+          "max": 18.14192962646484,
+          "mean": 10.111925549792405,
+          "std": 1.242375739930497,
+          "median": 10.28996562957764,
+          "q01": 0.8584508895874023,
+          "q99": 11.33155155181885
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI824BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_e567ef8cc1f9",
+      "entity_type": "MeasurementSeries",
+      "label": "75XI824BX.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75XI824BX.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI824BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "sensor_c1b5f727234b",
+      "entity_type": "Sensor",
+      "label": "75SI865R.pv",
+      "candidate_class": "SpeedSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75SI865R.pv",
+        "tag_family": "SI",
+        "data_type": "float64",
+        "missing_fraction": 0.0,
+        "unique_count": 24716,
+        "statistics": {
+          "min": 9.095764398574827,
+          "max": 8685.88046875,
+          "mean": 6578.314698456324,
+          "std": 848.7187478385547,
+          "median": 6683.875960286458,
+          "q01": 9.942769411404928,
+          "q99": 7068.268330891936
+        }
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75SI865R.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    },
+    {
+      "id": "series_c1b5f727234b",
+      "entity_type": "MeasurementSeries",
+      "label": "75SI865R.pv measurement series",
+      "candidate_class": "Measurement",
+      "status": "candidate",
+      "confidence": 0.7,
+      "attributes": {
+        "source_tag": "75SI865R.pv",
+        "timestamp_column": "Timestamp",
+        "row_count": 35036
+      },
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75SI865R.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "validation": {
+        "status": "source_validated"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_2ca7595e788d",
+      "source": "sensor_6c6b7b5bd944",
+      "relation": "INSTANCE_OF",
+      "target": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_9bca4dce12e2",
+      "source": "sensor_6c6b7b5bd944",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_6c6b7b5bd944",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_d5918bfcbe8d",
+      "source": "sensor_cd37698d9a15",
+      "relation": "INSTANCE_OF",
+      "target": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_309b38f99adb",
+      "source": "sensor_cd37698d9a15",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_cd37698d9a15",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI800BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_f6742dd1ec86",
+      "source": "sensor_eec4649487da",
+      "relation": "INSTANCE_OF",
+      "target": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_3b18e392a93f",
+      "source": "sensor_eec4649487da",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_eec4649487da",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BA.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_615fd588e206",
+      "source": "sensor_89961517e24d",
+      "relation": "INSTANCE_OF",
+      "target": "PositionSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_3f1e3ac9fae5",
+      "source": "sensor_89961517e24d",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_89961517e24d",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75ZI801BB.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_86b92a96889c",
+      "source": "sensor_3c38a9940af9",
+      "relation": "INSTANCE_OF",
+      "target": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI808.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_8f517260bb8a",
+      "source": "sensor_3c38a9940af9",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_3c38a9940af9",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI808.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_06a55ea6eea9",
+      "source": "sensor_93c3df2c9ba8",
+      "relation": "INSTANCE_OF",
+      "target": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI823.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_b0669280130e",
+      "source": "sensor_93c3df2c9ba8",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_93c3df2c9ba8",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI823.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_7bd9ba4790f8",
+      "source": "sensor_605e7e0b0d6e",
+      "relation": "INSTANCE_OF",
+      "target": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI870.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_1b2c168752bd",
+      "source": "sensor_605e7e0b0d6e",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_605e7e0b0d6e",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI870.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_14dc29f0771b",
+      "source": "sensor_46d34f72b609",
+      "relation": "INSTANCE_OF",
+      "target": "PressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI845.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_017e42e90f9d",
+      "source": "sensor_46d34f72b609",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_46d34f72b609",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PI845.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_7ab7de0363c3",
+      "source": "sensor_bc73f4d6c640",
+      "relation": "INSTANCE_OF",
+      "target": "DifferentialPressureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PDI853.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_66bdca202ca8",
+      "source": "sensor_bc73f4d6c640",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_bc73f4d6c640",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75PDI853.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_3d2b0ae49316",
+      "source": "sensor_195bf3996a83",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI821.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_c9a5f60f08a3",
+      "source": "sensor_195bf3996a83",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_195bf3996a83",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI821.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_7e457cdd6dbb",
+      "source": "sensor_c59acf353570",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI822.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_40ecd383b8af",
+      "source": "sensor_c59acf353570",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_c59acf353570",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI822.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_879fa94c1ab5",
+      "source": "sensor_c5c1030b0f7d",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI827.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_5af8a6604ad3",
+      "source": "sensor_c5c1030b0f7d",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_c5c1030b0f7d",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI827.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_c65aea987cfc",
+      "source": "sensor_01b841f33d42",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI828.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_13d9bcac057e",
+      "source": "sensor_01b841f33d42",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_01b841f33d42",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI828.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_511101c51fcd",
+      "source": "sensor_ae6bcbf707de",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI824.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_6d326adfaa6c",
+      "source": "sensor_ae6bcbf707de",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_ae6bcbf707de",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI824.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_8ac7850097cc",
+      "source": "sensor_c9284d166748",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI829.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_1bd26e67d212",
+      "source": "sensor_c9284d166748",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_c9284d166748",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI829.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_b9c4dbef8bd3",
+      "source": "sensor_186a6a288566",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI830.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_ca8c4d8d9d95",
+      "source": "sensor_186a6a288566",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_186a6a288566",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI830.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_ac23a40adff5",
+      "source": "sensor_fb626a261fd3",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI831.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_3c912a274b12",
+      "source": "sensor_fb626a261fd3",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_fb626a261fd3",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI831.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_5e8262716d88",
+      "source": "sensor_e0350c79fe90",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI832.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_83feabc5a1ae",
+      "source": "sensor_e0350c79fe90",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_e0350c79fe90",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI832.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_57f0ba6d76ff",
+      "source": "sensor_40fad8c00152",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI836.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_ec7b25f5526b",
+      "source": "sensor_40fad8c00152",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_40fad8c00152",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI836.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_391d680f56f5",
+      "source": "sensor_bdc866d7334d",
+      "relation": "INSTANCE_OF",
+      "target": "TemperatureSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI834.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_59ce292de8d3",
+      "source": "sensor_bdc866d7334d",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_bdc866d7334d",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75TI834.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_67a8f7c0b0f3",
+      "source": "sensor_624112a9fd28",
+      "relation": "INSTANCE_OF",
+      "target": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI821BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_fe6456f5150e",
+      "source": "sensor_624112a9fd28",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_624112a9fd28",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI821BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_77dd99e36e96",
+      "source": "sensor_6b31b40c92db",
+      "relation": "INSTANCE_OF",
+      "target": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI822BY.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_f5938bd622f0",
+      "source": "sensor_6b31b40c92db",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_6b31b40c92db",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI822BY.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_5cc8fa10db6a",
+      "source": "sensor_1e420f4a11ba",
+      "relation": "INSTANCE_OF",
+      "target": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI823BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_8979e07e2cc1",
+      "source": "sensor_1e420f4a11ba",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_1e420f4a11ba",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI823BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_1e74103705ff",
+      "source": "sensor_e567ef8cc1f9",
+      "relation": "INSTANCE_OF",
+      "target": "PositionOrDisplacementSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI824BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_f0c1176fee29",
+      "source": "sensor_e567ef8cc1f9",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_e567ef8cc1f9",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75XI824BX.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_d5e9151ade66",
+      "source": "sensor_c1b5f727234b",
+      "relation": "INSTANCE_OF",
+      "target": "SpeedSensor",
+      "status": "candidate",
+      "confidence": 0.7,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75SI865R.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    },
+    {
+      "id": "rel_15df457d6b4b",
+      "source": "sensor_c1b5f727234b",
+      "relation": "HAS_MEASUREMENT",
+      "target": "series_c1b5f727234b",
+      "status": "candidate",
+      "confidence": 0.95,
+      "provenance": {
+        "source_id": "RCSD-1YD.xlsx",
+        "source_type": "xlsx",
+        "location": {
+          "sheet": "Sheet1",
+          "column": "75SI865R.pv",
+          "data_rows": {
+            "start": 2,
+            "end": 35037
+          }
+        },
+        "extraction_method": "deterministic_tag_and_column_mapping",
+        "confidence": 0.7
+      },
+      "evidence_type": "dataset_structure",
+      "validation": {
+        "status": "structurally_validated"
+      }
+    }
+  ],
+  "validation_report": {
+    "status": "passed",
+    "summary": {
+      "entities_total": 50,
+      "entities_source_validated": 50,
+      "relations_total": 50,
+      "errors": 0,
+      "warnings": 0
+    },
+    "checks": {
+      "entity_provenance": true,
+      "relation_provenance": true,
+      "source_file_lookup": true,
+      "sheet_lookup": true,
+      "column_lookup": true,
+      "row_range_validation": true,
+      "relation_endpoint_validation": true,
+      "confidence_range_validation": true
+    },
+    "issues": [],
+    "next_stage": "knowledge_graph_build"
+  },
+  "not_inferred": [
+    "asset_identity",
+    "component_identity",
+    "sensor_to_asset_assignment",
+    "physical_units",
+    "causal_relationships",
+    "failure_events"
+  ]
+}

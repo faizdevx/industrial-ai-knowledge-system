@@ -1,0 +1,68 @@
+[
+  {
+    "document_id": "doc_ba6d1da0facbcc02",
+    "file_name": "1.pdf",
+    "file_path": "D:\\industrial-ai-knowledge-system\\data\\raw\\refinery\\documents\\1.pdf",
+    "source_type": "pdf",
+    "sha256": "84934a03501b1bb35fb1e43e8526b99d82e1c7fbcadb383cc398b26e8255fdd1",
+    "page_count": 284,
+    "status": "parsed",
+    "extraction_method": "PyMuPDF",
+    "total_characters": 294494
+  },
+  {
+    "document_id": "doc_7d69066c1adca679",
+    "file_name": "2.pdf",
+    "file_path": "D:\\industrial-ai-knowledge-system\\data\\raw\\refinery\\documents\\2.pdf",
+    "source_type": "pdf",
+    "sha256": "a8f542d2b19cf9dbea8b86da7afc1316d0b47334fa68d733c81f983a9adfd4fd",
+    "page_count": 562,
+    "status": "parsed",
+    "extraction_method": "PyMuPDF",
+    "total_characters": 1125990
+  },
+  {
+    "document_id": "doc_bdcf84a5907ef931",
+    "file_name": "3.pdf",
+    "file_path": "D:\\industrial-ai-knowledge-system\\data\\raw\\refinery\\documents\\3.pdf",
+    "source_type": "pdf",
+    "sha256": "50e2cf84a5834a21195085d6bb32eef46ca9c9e9d38e66095c7a4686b0049e4c",
+    "page_count": 133,
+    "status": "parsed",
+    "extraction_method": "PyMuPDF",
+    "total_characters": 0
+  },
+  {
+    "document_id": "doc_f63c707dd267f5ad",
+    "file_name": "4.pdf",
+    "file_path": "D:\\industrial-ai-knowledge-system\\data\\raw\\refinery\\documents\\4.pdf",
+    "source_type": "pdf",
+    "sha256": "ebb67f3d1d89d3ca92ead731363fe4ffdf27de694cf382aed235b933ff6a2ecb",
+    "page_count": 100,
+    "status": "parsed",
+    "extraction_method": "PyMuPDF",
+    "total_characters": 226372
+  },
+  {
+    "document_id": "doc_a66f0d0cb2fb81f1",
+    "file_name": "857951518-Placement-Policy-2026-B-Tech-MCA.pdf",
+    "file_path": "D:\\industrial-ai-knowledge-system\\data\\raw\\refinery\\documents\\857951518-Placement-Policy-2026-B-Tech-MCA.pdf",
+    "source_type": "pdf",
+    "sha256": "34ad3abe0e79047c4778221f5ec76ec2579c33faa6141a0bf4174f442b73345c",
+    "page_count": 4,
+    "status": "parsed",
+    "extraction_method": "PyMuPDF",
+    "total_characters": 7069
+  },
+  {
+    "document_id": "doc_e5d160a1da4993b8",
+    "file_name": "959707920-2026-Accenture-Campus-Recruitment-Drive-Timelines.pdf",
+    "file_path": "D:\\industrial-ai-knowledge-system\\data\\raw\\refinery\\documents\\959707920-2026-Accenture-Campus-Recruitment-Drive-Timelines.pdf",
+    "source_type": "pdf",
+    "sha256": "601eb903fb569d6a64ae84808463b64ee9405f6c207977a109b8ed85c716b7b0",
+    "page_count": 3,
+    "status": "parsed",
+    "extraction_method": "PyMuPDF",
+    "total_characters": 3886
+  }
+]
